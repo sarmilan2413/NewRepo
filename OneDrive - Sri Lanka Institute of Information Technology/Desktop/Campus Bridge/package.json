@@ -1,0 +1,14 @@
+{
+  "name": "campus-bridge",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix CampusBridge/client",
+    "build": "npm run build --prefix CampusBridge/client",
+    "server": "cd CampusBridge/server && python manage.py runserver",
+    "install:client": "npm install --prefix CampusBridge/client",
+    "install:all": "npm install && npm run install:client"
+  },
+  "dependencies": {
+    "lucide-react": "^0.575.0"
+  }
+}
